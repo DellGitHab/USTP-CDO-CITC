@@ -1,0 +1,119 @@
+.report-logs-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .filters input[type="text"] {
+    width: auto; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .filters select,
+  .filters button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .filters label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 2rem;
+  }
+  .filters label input[type="checkbox"] {
+    margin-right: 0.5rem;
+    accent-color: #4CAF50;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .filters button {
+    background-color: #007bff;
+    width: 80px;
+    color: #e0e0e0;
+  }
+  .filters button:hover {
+    background-color: #0056b3;
+  }
+  
+  .log-table-container {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  
+  .log-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .log-table th,
+  .log-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .log-table thead {
+    position: sticky;
+    top: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .export-buttons button {
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .export-buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: rgb(41, 38, 239);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #040d83;
+  }
+  
+  .pagination button:disabled {
+    background-color: #f4f4f4;
+    cursor: not-allowed;
+  }
+  

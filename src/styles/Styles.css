@@ -1,0 +1,90 @@
+
+/* Visitors Container */
+
+.visitors-container {
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Ensures it stretches to full height */
+    box-sizing: border-box; /* Includes padding in width/height calculations */
+  }
+  
+  /* Title Styles */
+  .visitors-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  /* Content Section */
+  .visitors-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Table Styles */
+  .visitors-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .visitors-table th,
+  .visitors-table td {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ddd; /* Light gray borders */
+  }
+  
+  .visitors-table th {
+    background-color: #0038A7;
+    color: white;
+  }
+  
+  .visitors-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row color */
+  }
+  
+  .visitors-table tr:hover {
+    background-color: #f5f5f5; /* Highlight row on hover */
+  }
+  .visitors-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-visitor-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.add-visitor-button:hover {
+  background-color: #0056b3;
+}
+
+.add-visitor-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.add-visitor-button:hover {
+  background-color: #0056b3;
+}
